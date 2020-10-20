@@ -26,6 +26,9 @@ gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'vuejs-rails'
 gem 'chart-js-rails'
 
+# Dependabot Security Updates
+gem "actionview", ">= 5.2.4.4"
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
