@@ -1,0 +1,30 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      PILEA<%= yield(:preview).empty? ? '' : yield(:preview) %>
+    </mj-preview>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#38a169">
+      <mj-column>
+        <mj-image src="https://lh3.googleusercontent.com/pw/ACtC-3f3eI0xMOBiUlbEOpHiOc0gZHCfHDLZxE-EDeKEdKMpWeaMKLXfABfIPrDW01oleGCTpRBao5F5_PncSQLvE0xljPjLGJGaYJtUfYjV9PILgANIxIrShQa-E-fav2pg6wG8zFAH3Ej70a5prYgKY_w" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image src="https://lh3.googleusercontent.com/pw/ACtC-3c_-gsf17u-T-V8bYy5nNl0hlehDheKfCEto_sZnAMeGEgCBNXa96Wwh53PFd_DbCQcY7q5CDM92pRxJJHikv9v5h56XB4aPj_F1Q95iIq9NdW6-jhse4CxInTZM1ziENaho36OWd6v27Yhm_K6GBw" />
+      </mj-column>
+    </mj-section>
+
+    <!--<%= yield %>-->
+    
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

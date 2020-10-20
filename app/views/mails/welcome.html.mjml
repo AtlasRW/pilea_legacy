@@ -1,0 +1,9 @@
+<!--<% provide(:preview, " — Welcome !") %>-->
+
+<mj-section>
+  <mj-column>
+    <mj-text>
+      Placeholder
+    </mj-text>
+  </mj-column>
+</mj-section>

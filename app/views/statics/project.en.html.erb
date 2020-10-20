@@ -1,0 +1,149 @@
+<% provide(:title, " — Coming soon") %>
+
+<!-- PROJECT HEADER -->
+<div class="w-full lg:pt-16 bg-green-600 z-30 -mt-1">
+	<div class="text-gray-200 px-0 mx-auto lg:px-16 flex flex-wrap lg:flex-no-wrap justify-center">
+    <%= image_pack_tag(('cryptocurrencies.png'), class: "hidden lg:block lg:w-1/5 lg:h-1/5 my-16 mx-24 relative z-40") %>
+		<div class="w-11/12 flex flex-col items-center mt-24 lg:mt-0 mx-auto px-10 lg:px-4">
+			<div class="mt-5 mb-8 font-bold uppercase text-6xl lg:text-5xl text-center leading-tight">
+        <h1>
+          Cryptocurrency
+        </h1>
+        <h1>
+          Finally made easy
+        </h1>
+      </div>
+			<p class="leading-normal text-5xl lg:text-2xl font-light text-center mb-8">
+        The Blockchain can be complex with its abstract terms or technologies, and its fast evolution with new currencies every day and prices that can change every second... So we created <span class="font-logo">Pilea</span> to simplify cryptos for novices and experts alike!
+      </p>
+      <%= link_to button_tag("Discover more", id: "project", class: "outline-none mx-auto uppercase shadow-lg hover:shadow-3xl bg-white hover:bg-green-200 text-green-600 font-bold text-4xl lg:text-xl rounded-lg z-40 mt-6 mb-12 lg:mb-6 py-6 lg:py-3 px-48 lg:px-48 shadow-lg"), "#project" %>
+		</div>
+	</div>
+</div>
+<div class="bg-green-600 -mt-2 h-20 lg:h-0"></div>
+<!-- PROJECT HEADER -->
+
+<%= render 'assets/transition' %>
+
+<!-- PROJECT BODY -->
+<div class="w-full shadow-lg text-center">
+
+  <!--CAROUSEL-->
+  <div class="carousel relative leading-normal tracking-normal mt-16 -mb-16">
+    <div class="carousel-inner relative overflow-hidden w-full">
+
+      <!--SLIDE 1-->
+      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block w-10/12 text-5xl mx-auto">
+          
+          <div class="flex flex-wrap lg:flex-no-wrap justify-center text-center">
+            <div class="my-2 lg:my-10 lg:py-10 py-8 px-16">
+              <span class="text-5xl lg:text-4xl font-bold uppercase text-center text-white bg-green-600 px-16">
+                Simplicity
+              </span>
+              <p class="text-4xl lg:text-2xl font-normal text-center py-6 lg:py-6">
+                Our main goal is to make the Blockchain accessible to everyone. You'll be able to explore the Blockchain with ease thanks to clean interfaces, clear data, rich blog articles, along with interactive exercises to help you learn the basics with your first coins.
+              </p>
+            </div>
+            <%= image_pack_tag(('simplicity.png'), class: "w-56 h-56 lg:my-16 mx-12 relative z-40") %>
+          </div>
+
+        </div>
+      </div>
+      <label for="carousel-4" class="prev control-1 w-20 lg:w-10 h-40 lg:h-20 lg:ml-16 ml-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 left-0 pt-8 lg:pt-4 my-auto">‹</label>
+      <label for="carousel-2" class="next control-1 w-20 lg:w-10 h-40 lg:h-20 lg:mr-16 mr-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 right-0 pt-8 lg:pt-4 my-auto">›</label>
+      <!--SLIDE 1-->
+
+      <!--SLIDE 2-->
+      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block w-10/12 text-5xl mx-auto">
+          
+          <div class="flex flex-wrap-reverse lg:flex-no-wrap justify-center text-center">
+            <%= image_pack_tag(('versatility.png'), class: "w-56 h-56 lg:my-16 mx-12 relative z-40") %>
+            <div class="my-2 lg:my-10 lg:py-10 py-8 px-16">
+              <span class="text-5xl lg:text-4xl font-bold uppercase text-center text-white bg-green-600 px-16">
+                Versatility
+              </span>
+              <p class="text-4xl lg:text-2xl font-normal text-center py-6 lg:py-6">
+                For the true veterans (or the demanding beginners) seeking a way to boost their efficiency, we provide you a set of tools to customize your interface, allowing you to filter the coins and tokens you're really interested in. You can test, analyze, compare and love, at first sight.
+              </p>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      <label for="carousel-1" class="prev control-2 w-20 lg:w-10 h-40 lg:h-20 lg:ml-16 ml-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 left-0 pt-8 lg:pt-4 my-auto">‹</label>
+      <label for="carousel-3" class="next control-2 w-20 lg:w-10 h-40 lg:h-20 lg:mr-16 mr-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 right-0 pt-8 lg:pt-4 my-auto">›</label>
+      <!--SLIDE 2-->
+      
+      <!--SLIDE 3-->
+      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block w-10/12 text-5xl mx-auto">
+          
+          <div class="flex flex-wrap lg:flex-no-wrap justify-center text-center">
+            <div class="my-2 lg:my-10 lg:py-10 py-8 px-16">
+              <span class="text-5xl lg:text-4xl font-bold uppercase text-center text-white bg-green-600 px-16">
+                Reliability
+              </span>
+              <p class="text-4xl lg:text-2xl font-normal text-center py-6 lg:py-6">
+                Trust is key to long-term relationships, and in the cryptocurrencies world that means precise, accurate data. We provide our own powerful database, constantly updated with the last relevant data directly from the Blockchain, providing you perfectly accurate data anytime, anywhere.
+              </p>
+            </div>
+            <%= image_pack_tag(('reliability.png'), class: "w-56 h-56 lg:my-16 mx-12 relative z-40") %>
+          </div>
+        
+        </div>
+      </div>
+      <label for="carousel-2" class="prev control-3 w-20 lg:w-10 h-40 lg:h-20 lg:ml-16 ml-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 left-0 pt-8 lg:pt-4 my-auto">‹</label>
+      <label for="carousel-4" class="next control-3 w-20 lg:w-10 h-40 lg:h-20 lg:mr-16 mr-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 right-0 pt-8 lg:pt-4 my-auto">›</label>
+      <!--SLIDE 3-->
+
+      <!--SLIDE 4-->
+      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block w-10/12 text-5xl mx-auto">
+          
+          <div class="flex flex-wrap-reverse lg:flex-no-wrap justify-center text-center">
+            <%= image_pack_tag(('community.png'), class: "w-56 h-56 lg:my-16 mx-12 relative z-40") %>
+            <div class="my-2 lg:my-10 lg:py-10 py-8 px-16">
+              <span class="text-5xl lg:text-4xl font-bold uppercase text-center text-white bg-green-600 px-16">
+                Community
+              </span>
+              <p class="text-4xl lg:text-2xl font-normal text-center py-6 lg:py-6">
+                The "Cryptosphere" is all about sharing tips, advices, answers, slices of life... a very big family with a very unique passion! Soon you'll be able to join our community of enthusiats around the world and participate to the most important part of all this: the people.
+              </p>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      <label for="carousel-3" class="prev control-4 w-20 lg:w-10 h-40 lg:h-20 lg:ml-16 ml-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 left-0 pt-8 lg:pt-4 my-auto">‹</label>
+      <label for="carousel-1" class="next control-4 w-20 lg:w-10 h-40 lg:h-20 lg:mr-16 mr-5 absolute cursor-pointer hidden text-6xl lg:text-4xl font-bold text-white rounded-full bg-green-600 hover:bg-green-700 leading-tight text-center z-10 inset-y-0 right-0 pt-8 lg:pt-4 my-auto">›</label>
+      <!--SLIDE 4-->
+
+    </div>
+  </div>
+  <!--CAROUSEL-->
+
+  <!--NEWSLETTER FORM-->
+  <div class="py-32 lg:pb-32">
+    <div class="uppercase tracking-loose font-bold text-4xl lg:text-3xl text-center my-12">
+      <h1>
+        Subscribe to our newsletter
+      </h1>
+      <h1>
+        To be notified when it is available
+      </h1>
+    </div>
+
+    <iframe class="mj-w-res-iframe w-full px-24 lg:px-48" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<%=ENV['MJ_FORM_EN']%>"></iframe>
+
+    <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+  </div>
+  <!--NEWSLETTER FORM-->
+
+</div>
+<!-- PROJECT BODY -->

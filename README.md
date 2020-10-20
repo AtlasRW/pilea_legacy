@@ -1,4 +1,4 @@
-## EASY-TO-USE CRYPTOCURRENCIES VISUALIZER [LEGACY PROTOTYPE]
+## LE COMPARATEUR DE CRYPTOMONNAIES FACILE D'ACCÈS
 Blockchain, tokens, trading... les cryptos au début c'est compliqué, mais ça vient de changer. Avec Pilea, que tu sois juste curieux ou déjà un maître de la blockchain, toutes les infos dont tu as besoin sont ici. Tu peux comparer les données des plus importantes cryptos du marché très simplement, fini de se prendre la tête !
 
 Il n’est pas possible d’accéder aujourd’hui a des données analysables ou triables sur les cryptos monnaies. Le but est donc d’offrir un site facilement utilisable permettant de suivre les actifs des plateformes. Par exemple, il n’est pas possible sur CoinMarketCap de classer les monnaies pour un échange de notre choix.
@@ -17,19 +17,8 @@ On aime vous faciliter la tache, on va vous montrer ci dessous tout ce que vous 
 
 ---
 
-## LIBRARIES
+## TECHNOLOGIES UTILISÉES
 
-- TailwindCSS
-- DataTables
-- Chart.js
-- Vue.js
-- Ruby
+- Vue
 - Rails
-- CoinGecko
-
----
-
-## ADMIN ACCOUNT
-
-- MAIL: metislab201@gmail.com
-- PASSWORD: Metislab2016064
+- Tailwind
