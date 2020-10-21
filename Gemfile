@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 # gem 'image_processing', '~> 1.2'
 
+# Dependabot Security Updates
+gem "actionview", ">= 5.2.4.4"
+
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
