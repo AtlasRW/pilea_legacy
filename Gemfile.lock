@@ -237,8 +237,6 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2021.1)
-      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
@@ -260,7 +258,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  actionview (~> 5.2)
   administrate
   bootsnap (>= 1.1.0)
   byebug
@@ -283,7 +280,6 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   table_print
   turbolinks (~> 5)
-  tzinfo-data
   vuejs-rails
   web-console (>= 3.3.0)
 
