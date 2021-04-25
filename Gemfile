@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '3.0.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.2'
 # Use PostgreSQL as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 
@@ -27,7 +27,7 @@ gem 'vuejs-rails'
 gem 'chart-js-rails'
 
 # Dependabot Security Updates
-gem "actionview", ">= 5.2.4.4"
+gem "actionview", "~> 5.2"
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
